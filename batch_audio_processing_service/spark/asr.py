@@ -34,7 +34,7 @@ print(pyarrow.__version__)
 
 def asr_processor_func(mp3File, endpoint, accessKey, secretKey):
     print("[asr_processor_func]start")
-    url = 'http://42.81.227.59:8000/ASR'
+    url = ''
     try:
         print("[asr_processor_func]process", mp3File)
         dirs = mp3File.split(os.sep)
