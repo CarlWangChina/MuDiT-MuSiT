@@ -106,3 +106,12 @@ Our framework follows a three-stage process as detailed in the paper: Module Pre
     # Example command (conceptual)
     deepspeed --num_gpus=8 scripts/train.py --config configs/mudit_finetune_config.yaml --resume_from_checkpoint /path/to/pretrained_model.pth
     ```
+
+#### Component Models
+
+To ensure the reproducibility of the specific modules discussed in our paper, we provide the fine-tuned weights for our CLAP-based model and the Qwen-based lyric generation model. These are available at our Hugging Face Model repository: 
+`huggingface.co/karl-wang/ama-prof-divi`
+
+However, please note that the weights for certain models cannot be open-sourced due to commercial confidentiality agreements with our partner companies.
+
+Additionally, the dataset used for pre-training, which contains the recordings and lyrics of over 1.5 million songs, is not publicly available due to copyright restrictions. Researchers interested in using this dataset for academic research may request access by contacting us via email at carlwang1212@gmail.com.
