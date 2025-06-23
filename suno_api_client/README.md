@@ -1,1 +1,0 @@
-A client module for interacting with the Suno API for music generation.
